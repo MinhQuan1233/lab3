@@ -1,0 +1,57 @@
+package bai.pkg1;
+
+/**
+ *
+ * @author thy12
+ */
+public class Bai1 {
+    public static void main(String[] args){
+        System.out.println("nhap canh: ");
+        System.out.println("dientich: ");
+    }
+    
+    /**
+     */
+    public class hinhvuong {
+        private double canh;
+        public hinhvuong(double canh){
+            this.canh = canh;
+    }
+    public double getcanh(){
+        return canh;
+    }
+    public void setcanh(double canh){
+        this.canh = canh;
+    
+    }
+    public double tinhdientich(){
+        return canh * canh;
+    }
+    
+    }
+    
+}
+ public class HinhTron {
+   
+    private double banKinh;
+
+    
+    public HinhTron(double banKinh) {
+        this.banKinh = banKinh;
+    }
+
+   
+    public double getBanKinh() {
+        return banKinh;
+    }
+
+    
+    public void setBanKinh(double banKinh) {
+        this.banKinh = banKinh;
+    }
+
+   
+    public double tinhDienTich() {
+        return Math.PI * banKinh * banKinh;
+    }
+}
